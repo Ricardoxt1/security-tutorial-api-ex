@@ -28,6 +28,5 @@ public class Questao {
     public Questao(QuestaoDTO dto) {
         this.id = dto.id();
         this.enunciado = dto.enunciado();
-        // Categoria e Opcoes serão setadas no Service
     }
 }
